@@ -59,7 +59,7 @@ const TopBar: React.FC<TopBarProps> = () => {
               { location.pathname !== '/' ? (
                 <WalletButton />
               ) : (
-                <Button size="sm" text="Buy Aptoselon Token" to="/dashboard" />
+                <Button size="sm" text="Aptoselon Dashboard" to="/dashboard" />
               )}
             </StyledAccountButtonWrapper>
             { location.pathname !== '/' && (

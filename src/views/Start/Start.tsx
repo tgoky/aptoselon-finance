@@ -52,6 +52,7 @@ const ELONS = [
   '🔥'
 ]
 
+
 const Start: React.FC = () => {
   const [astronaut, setAstronaut] = useState('👨‍🚀')
 
